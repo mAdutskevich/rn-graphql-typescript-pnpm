@@ -1,12 +1,15 @@
-import { View } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
 import withTheme from '@/hocs/withTheme';
+import { ApolloProvider } from '@/components/templates/ApolloProvider';
 import { Root } from '@/components/templates/Root';
 
 const App: React.FC = () => {
     return (
-        <View>
-            <Root />
-        </View>
+        <ApolloProvider>
+            <NavigationContainer>
+                <Root />
+            </NavigationContainer>
+        </ApolloProvider>
     );
 };
 
