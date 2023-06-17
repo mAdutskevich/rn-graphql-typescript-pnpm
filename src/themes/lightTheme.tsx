@@ -6,6 +6,7 @@ export const lightTheme: ITheme = {
     bg: {
         primary: variables.colors.white,
         secondary: variables.colors.light,
+        contrast: variables.colors.dark,
         // notification: variables.colors.
         // warning: variables.colors.
     },

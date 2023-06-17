@@ -6,6 +6,7 @@ export const darkTheme: ITheme = {
     bg: {
         primary: variables.colors.dark,
         secondary: variables.colors.darkFaded4,
+        contrast: variables.colors.light,
         // notification: variables.colors.
         // warning: variables.colors.
     },

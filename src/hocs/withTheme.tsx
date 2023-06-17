@@ -1,5 +1,7 @@
+import 'react-native-gesture-handler';
 import React from 'react';
 import { DeviceEventEmitter } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { ThemeProvider } from 'styled-components/native';
 import { lightTheme } from '@/themes/lightTheme';
@@ -31,11 +33,13 @@ const withTheme = <P extends object>(WrappedComponent: React.ComponentType<P>) =
         }, []);
 
         return (
-            <FontsProvider>
-                <ThemeProvider theme={theme}>
-                    <WrappedComponent {...props} />
-                </ThemeProvider>
-            </FontsProvider>
+            <NavigationContainer>
+                <FontsProvider>
+                    <ThemeProvider theme={theme}>
+                        <WrappedComponent {...props} />
+                    </ThemeProvider>
+                </FontsProvider>
+            </NavigationContainer>
         );
     };
 

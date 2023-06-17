@@ -3,6 +3,7 @@ export interface ITheme {
     bg: {
         primary: string;
         secondary: string;
+        contrast: string;
         // notification: variables.colors.
         // warning: variables.colors.
     };
