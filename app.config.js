@@ -11,6 +11,9 @@ module.exports = {
             resizeMode: 'contain',
             backgroundColor: '#ffffff',
         },
+        updates: {
+            fallbackToCacheTimeout: 0,
+        },
         assetBundlePatterns: ['**/*'],
         ios: {
             supportsTablet: true,
@@ -26,6 +29,7 @@ module.exports = {
             favicon: './assets/favicon.png',
         },
         extra: {
+            storybookEnabled: process.env.STORYBOOK_ENABLED,
             eas: {
                 projectId: '5479b9f5-4889-47cd-b1b4-8b292e0bf3ed',
             },

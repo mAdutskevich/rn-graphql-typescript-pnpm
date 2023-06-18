@@ -10,11 +10,12 @@ module.exports = {
     },
     plugins: ['@typescript-eslint', 'prettier'],
     extends: [
-        'next/core-web-vitals', // includes eslint:recommended, eslint-plugin-react, eslint-plugin-react-hooks, eslint-plugin-next
+        'next/core-web-vitals', //  // includes eslint:recommended, eslint-plugin-react, eslint-plugin-react-hooks, eslint-plugin-next
         'plugin:@typescript-eslint/eslint-recommended',
         'plugin:@typescript-eslint/recommended',
-        'plugin:prettier/recommended', // show prettier errors as ESLint errors
-        // 'plugin:storybook/recommended',
+        'plugin:prettier/recommended',
+        'plugin:storybook/recommended',
+        'plugin:storybook/recommended',
     ],
     rules: {
         'no-console': [
