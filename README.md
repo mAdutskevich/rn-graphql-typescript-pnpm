@@ -22,6 +22,7 @@ It will create .apk in the projects root folder.
 
 ## Information
 1. `.npmrc` is required for correct pnpm deps installation
+2. Storybook was configured using this example: https://github.com/dannyhw/expo-storybook-starter/tree/main
 
 
 

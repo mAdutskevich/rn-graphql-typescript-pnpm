@@ -3,6 +3,7 @@ module.exports = function (api) {
     return {
         presets: ['babel-preset-expo'],
         plugins: [
+            ['babel-plugin-react-docgen-typescript', { exclude: 'node_modules' }],
             [
                 // for reading .env variables
                 'module:react-native-dotenv',
