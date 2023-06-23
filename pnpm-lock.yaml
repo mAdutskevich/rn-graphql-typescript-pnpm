@@ -32,6 +32,9 @@ dependencies:
   expo-font:
     specifier: 11.1.1
     version: 11.1.1(expo@48.0.18)
+  expo-linking:
+    specifier: 4.0.1
+    version: 4.0.1(expo@48.0.18)
   expo-location:
     specifier: 15.1.1
     version: 15.1.1(expo@48.0.18)
@@ -2541,6 +2544,10 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: true
 
+  /@types/qs@6.9.7:
+    resolution: {integrity: sha512-FGa1F62FT09qcrueBA6qYTrJPVDzah9a+493+o2PCXsesWHIn27G98TsSMs3WPNbZIEj4+VJf6saSFpvD+3Zsw==}
+    dev: false
+
   /@types/react-native@0.72.2(react-native@0.71.8)(react-test-renderer@18.2.0):
     resolution: {integrity: sha512-/eEjr04Zqo7mTMszuSdrLx90+j5nWhDMMOgtnKZfAYyV3RwmlpSb7F17ilmMMxZWJY81n/JZ4e6wdhMJFpjrCg==}
     dependencies:
@@ -4561,6 +4568,19 @@ packages:
       expo: '*'
     dependencies:
       expo: 48.0.18(@babel/core@7.22.5)
+    dev: false
+
+  /expo-linking@4.0.1(expo@48.0.18):
+    resolution: {integrity: sha512-geRMmKLhtaCigptRzOGW8ZZJKGl47gyu0KFtQOtGf26ELxyt/AietgQjyzF24i7cVD08TnWUJDHgWZkpRHTa7g==}
+    dependencies:
+      '@types/qs': 6.9.7
+      expo-constants: 14.2.1(expo@48.0.18)
+      invariant: 2.2.4
+      qs: 6.11.0
+      url-parse: 1.5.10
+    transitivePeerDependencies:
+      - expo
+      - supports-color
     dev: false
 
   /expo-location@15.1.1(expo@48.0.18):
