@@ -22,6 +22,7 @@ It will create .apk in the projects root folder.
 
 ## Information
 1. `.npmrc` is required for correct pnpm deps installation
+2. `expo-linking` is required for opening third-party applications on the phone
 
 
 
