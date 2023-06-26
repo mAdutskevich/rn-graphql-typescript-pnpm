@@ -1,0 +1,1 @@
+export { NaviBgGeo } from './NaviBgGeo';
