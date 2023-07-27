@@ -20,12 +20,6 @@ module.exports = ({ config }) => ({
             },
         ],
         [
-            'react-native-background-geolocation',
-            {
-                license: 'YOUR_LICENSE_KEY_HERE',
-            },
-        ],
-        [
             'expo-gradle-ext-vars',
             {
                 googlePlayServicesLocationVersion: '20.0.0',

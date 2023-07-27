@@ -65,9 +65,6 @@ dependencies:
   react-native-background-fetch:
     specifier: 4.1.10
     version: 4.1.10
-  react-native-background-geolocation:
-    specifier: 4.12.1
-    version: 4.12.1
   react-native-dotenv:
     specifier: 3.4.8
     version: 3.4.8(@babel/runtime@7.22.5)
@@ -7424,12 +7421,6 @@ packages:
 
   /react-native-background-fetch@4.1.10:
     resolution: {integrity: sha512-Ug54vTctZuD/c06ZLk/VyvFdhw/hCVVOHYR5heyMqc6FlT/m9fVhFWyl4uH3JmPCzmWDVR3fO28CzrGpKOrusw==}
-    dev: false
-
-  /react-native-background-geolocation@4.12.1:
-    resolution: {integrity: sha512-0ZjFQdoTClCOSbhEDrq/7xpZf9Yt6xi1ryWBOPkvXo/sO7P0a8+ZYRejXJFm4vy8QK5r5q4BzQRuGM51ycHcsA==}
-    dependencies:
-      react-native-background-fetch: 4.1.10
     dev: false
 
   /react-native-codegen@0.71.5(@babel/preset-env@7.22.5):
